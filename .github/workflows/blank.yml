@@ -1,4 +1,4 @@
-name: Send Greetings "${{ github.event.inputs.name }}"
+name: Send Greetings
 on:
   workflow_dispatch:
     inputs:
