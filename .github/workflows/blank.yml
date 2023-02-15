@@ -19,7 +19,7 @@ on:
 
 jobs:
   greet:
-    name: Sending Greetings "${{ github.event.inputs.name }}"
+    name: Sending Greetings ${{ github.event.inputs.name }}
     runs-on: ubuntu-latest
 
     steps:
