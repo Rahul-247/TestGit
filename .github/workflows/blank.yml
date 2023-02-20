@@ -19,7 +19,7 @@ on:
 
 jobs:
   greet:
-    name: Sending Greetings ${{ github.event.inputs.name }}
+    name: Sending Greetings ${{ github.event.inputs.name }} with ${{ github.event.inputs.message }} message and use emoji ${{ github.event.inputs.use-emoji }}
     runs-on: ubuntu-latest
 
     steps:
